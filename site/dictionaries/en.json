@@ -1,15 +1,15 @@
 {
     "metadata": {
-        "title": "AriaDocs - Template",
-        "description": "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements."
+        "title": "Refine AI",
+        "description": "Refine AI is an open-science artificial intelligence research lab dedicated to pioneering data quality—the foundation of efficient,reliable, and fair AI development"
     },
     "home": {
-        "follow_github": "Follow along on GitHub",
-        "main_header": "Effortlessly build stunning documentation sites with flexibility for diverse projects.",
-        "sub_header": "This feature-packed documentation template, built with multiple frameworks including Next.js, React Router, and TanStack Router, offers a sleek and responsive design, perfect for all your project documentation needs.",
-        "get_started": "Get Stared",
+        "follow_github": "Join our community",
+        "main_header": "An open-science AI research lab dedicated to pioneering data quality.",
+        "sub_header": "",
+        "get_started": "Tools",
         "read_blog": "Read Blog",
-        "name": "AriaDocs"
+        "name": "Refine"
     },
     "footer": {
         "built_by": "Build by",
@@ -19,10 +19,8 @@
     },
     "navbar": {
         "links": {
-            "documentation": "Documentation",
+            "documentation": "Tools",
             "blog": "Blog",
-            "examples": "Examples",
-            "guides": "Guides",
             "community": "Community"
         },
         "search": {
