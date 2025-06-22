@@ -1,5 +1,5 @@
 import { ModeToggle } from "@/components/theme-toggle";
-import { GithubIcon, TwitterIcon, CommandIcon } from "lucide-react";
+import { GithubIcon, TwitterIcon} from "lucide-react";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import Search from "./search";
@@ -12,7 +12,7 @@ import LocalizedLink from "./localized-link";
 
 export const NAVLINKS = [
   {
-    title: "documentation",
+    title: "Tools",
     href: `/docs${page_routes[0].href}`,
     absolute: true,
   },
@@ -21,16 +21,8 @@ export const NAVLINKS = [
     href: "/blog",
   },
   {
-    title: "examples",
-    href: "#",
-  },
-  {
-    title: "guides",
-    href: "#",
-  },
-  {
     title: "community",
-    href: "https://github.com/nisabmohd/Aria-Docs/discussions",
+    href: "https://discord.gg/refine",
   },
 ];
 
@@ -82,8 +74,7 @@ export function Navbar({ dict }: { dict: Dictionary }) {
 export function Logo() {
   return (
     <LocalizedLink href="/" className="flex items-center gap-2.5">
-      <CommandIcon className="w-6 h-6 text-muted-foreground" strokeWidth={2} />
-      <h2 className="text-md font-bold font-code">AriaDocs</h2>
+      <h2 className="text-md font-bold font-code">Refine</h2>
     </LocalizedLink>
   );
 }
