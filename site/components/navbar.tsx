@@ -44,11 +44,11 @@ export function Navbar({ dict }: { dict: Dictionary }) {
 
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-2">
-            <Search dict={dict} />
+            {/* <Search dict={dict} /> */}
             <div className="flex ml-2.5 sm:ml-0">
               <LangSelect />
               <Link
-                href="https://github.com/nisabmohd/NexDocs"
+                href="https://github.com/refineaidev"
                 className={buttonVariants({ variant: "ghost", size: "icon" })}
               >
                 <GithubIcon className="h-[1.1rem] w-[1.1rem]" />

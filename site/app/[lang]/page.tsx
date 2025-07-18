@@ -25,12 +25,12 @@ export default async function Home({ params }: LangProps) {
         {dict.home.sub_header}
       </p>
       <div className="flex flex-row items-center gap-5">
-        <LocalizedLink
+        {/* <LocalizedLink
           href={`/docs${page_routes[0].href}`}
           className={buttonVariants({ className: "px-6", size: "lg" })}
         >
           {dict.home.get_started}
-        </LocalizedLink>
+        </LocalizedLink> */}
         <LocalizedLink
           href="/blog"
           className={buttonVariants({
