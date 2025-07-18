@@ -15,8 +15,8 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",    // or "react-jsxdev" for dev mode
-    "jsxImportSource": "react", 
+    "jsx": "preserve", // or "react-jsxdev" for dev mode
+    "jsxImportSource": "react",
     "incremental": true,
     "plugins": [
       {
@@ -37,6 +37,5 @@
   ],
   "exclude": [
     "node_modules"
-  ],
-
+  ]
 }
