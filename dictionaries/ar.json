@@ -1,0 +1,67 @@
+{
+    "metadata": {
+        "title": "Refine AI",
+        "description": "Refine AI هو مختبر أبحاث ذكاء اصطناعي مفتوح المصدر مكرّس للريادة في جودة البيانات — الأساس لتطوير ذكاء اصطناعي فعّال وموثوق وعادل"
+    },
+    "home": {
+        "follow_github": "انضم إلى مجتمعنا",
+        "main_header": "مختبر أبحاث ذكاء اصطناعي مفتوح المصدر مكرّس للريادة في جودة البيانات.",
+        "sub_header": "",
+        "get_started": "الأدوات",
+        "read_blog": "اقرأ المدونة",
+        "name": "Refine"
+    },
+    "footer": {
+        "built_by": "تم التطوير بواسطة",
+        "source_code_available": "الكود المصدري متاح على",
+        "deploy": "نشر",
+        "sponsor": "رعاية"
+    },
+    "navbar": {
+        "links": {
+            "documentation": "الأدوات",
+            "blog": "المدونة",
+            "community": "المجتمع"
+        },
+        "search": {
+            "search_documentation": "ابحث في التوثيق...",
+            "no_results_found": "لم يتم العثور على نتائج لـ",
+            "type_something": "اكتب شيئًا للبحث..."
+        },
+        "theme": {
+            "light": "فاتح",
+            "dark": "داكن",
+            "system": "النظام"
+        }
+    },
+    "docs": {
+        "on_this_page": "في هذه الصفحة",
+        "next": "التالي",
+        "previous": "السابق"
+    },
+    "not_found": {
+        "404": "404",
+        "page_not_found": "الصفحة غير موجودة",
+        "sub_text": "عذرًا! الصفحة التي تبحث عنها غير موجودة.",
+        "back_to_homepage": "العودة إلى الصفحة الرئيسية"
+    },
+    "leftbar": {
+        "getting_started": "البدء",
+        "introduction": "مقدمة",
+        "installation": "التثبيت"
+    },
+    "blog": {
+        "title": "آخر مقالاتنا",
+        "sub_title": "جميع آخر المقالات والأخبار مباشرة من الفريق.",
+        "published_on": "نُشرت في",
+        "back_to_blog": "العودة إلى المدونة",
+        "posted_by": "نُشرت بواسطة"
+    },
+    "error": {
+        "oops": "عذرًا!",
+        "something_went_wrong": "حدث خطأ ما.",
+        "sub_text": "نعتذر، ولكن حدث خطأ أثناء معالجة طلبك.",
+        "reload_page": "إعادة تحميل الصفحة",
+        "back_to_homepage": "العودة إلى الصفحة الرئيسية"
+    }
+}
