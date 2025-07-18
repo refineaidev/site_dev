@@ -1,12 +1,15 @@
 {
-  "name": "aria-docs",
-  "version": "2.0.0",
-  "private": true,
+  "name": "refine",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://refineaidev.github.io/site_dev",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.0",
@@ -19,9 +22,10 @@
     "@radix-ui/react-tabs": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "gh-pages": "^6.3.0",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.435.0",
-    "next": "15.0.4",
+    "next": "^15.4.2",
     "next-mdx-remote": "^5.0.0",
     "next-themes": "^0.3.0",
     "react": "^18.3.1",
