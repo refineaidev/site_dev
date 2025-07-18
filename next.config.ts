@@ -1,19 +1,22 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export", 
+  trailingSlash: true, 
+  basePath: "/site_dev",
   eslint: {
     ignoreDuringBuilds: true,
   },
   images: {
+    unoptimized: true, 
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "img.freepik.com/**",
+        hostname: "img.freepik.com",
       },
     ],
   },
-  // if used turbopack
+  // Uncomment if using Turbopack
   // transpilePackages: ["next-mdx-remote"],
 };
 
